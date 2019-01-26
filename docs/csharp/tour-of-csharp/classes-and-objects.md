@@ -243,7 +243,7 @@ get 访问器对应于包含属性类型的返回值的无参数方法。 如果
 
 set 访问器对应于包含一个名为 value 的参数但不含返回类型的方法。 如果将属性引用为赋值目标或 ++/-- 的操作数，将调用 set 访问器（由自变量提供新值）。
 
-`List<T>` 类声明以下两个属性：Count 和 Capacity（分别是只读和只写属性）。 下面的示例展示了如何使用这些属性。
+`List<T>` 类声明以下两个属性：Count 和 Capacity（其中Count是只读属性）。 下面的示例展示了如何使用这些属性。
 
 [!code-csharp[ListExample2](../../../samples/snippets/csharp/tour/classes-and-objects/ListBasedExamples.cs#L101-L104)]
 
